@@ -1,0 +1,87 @@
+
+1. Newton Second Law
+
+PSEUDOCODE
+1. Tentukan niai "resultan gaya"
+2. Tentukan nilai "massa benda" dengan 600
+3. Tentukan nilai "percepatan benda" dengan 2
+4. Lakukan perkalian "massa benda" dengan "percepatan benda"
+5. Simpan hasil perkalian dalam "resultan gaya"
+6. Tampilkan "resultan gaya"
+
+ALGORITMA
+
+STORE "resultan gaya" with any value
+STORE "massa benda" with 600
+STORE "percepatan benda" with 2
+
+CALCULATE "massa benda" times "a"
+SET "resultan gaya" value with calculation result
+
+DISPLAY "resultan gaya"
+
+
+2. Tahun Kabisat
+
+PSEUDOCODE
+
+1. Tentukan nilai "Year" dengan nilai apapun
+2. tentukan apakah "Year" adalah "Tahun Kabisat" atau "Bukan tahun kabisat"
+3. Jika "Year" mod 4 EQUALS to 0 DISPLAY "Tahun Kabisat"
+
+ALGORITMA
+
+STORE "Year" with any value
+
+IF "Year" mod 4 equals to 0
+	IF "Year" mod 100 not equal to 0
+		DISPLAY "Tahun Kabisat"
+	ELSE IF "Year" mod 100 equal to 0 and "Year" mod 400 equals to 0
+		DISPLAY "Tahun Kabisat"
+ELSE 
+	DISPLAY "Bukan tahun kabisat"
+END IF
+
+3. Laundry Day
+
+PSEUDOCODE
+
+1. tentukan nilai "Baju" dengan nilai 0
+2. tambahkan nilai 1 pada "Baju" hingga nilai "Baju" sama dengan 20
+3. Tampilkan "Laundry Start"
+
+ALGORITMA
+
+STORE "Baju with 0
+
+WHILE "Baju" <20
+	ADD "Baju" by 1
+END WHILE
+
+DISPLAY "Laundry Start!"
+
+4. Periksa kuku
+
+PSEUDOCODE
+
+1. Tentukan nilai "Murid" dengan nilai 0
+2. Tentukan nilai "Kuku" dengan nilai apapun
+3. periksa "Kuku" seluruh "Murid" hingga jumlah "Murid" sama dengan 40
+4. Jika nilai "Kuku" murid "Panjang" tampilkan "Hukum"
+5. Jika nilai "Kuku" murid "Pendek" tampilkan "Puji"
+6. Jika "Murid" sama dengan 40 tampilkan "Selesai"
+
+ALGORITMA
+
+STORE "Murid" with 0
+STORE "Kuku" with any value
+
+WHILE "Murid" <40
+	IF "Kuku" equals "Panjang"
+		DO "Hukum"
+	ELSE
+		DO "Puji"
+	END IF
+	DO "Murid" add 1
+END WHILE
+	DISPLAY "Selesai"
