@@ -11,14 +11,12 @@ while(count<rows){
 
 //2. Menyusun Barisan Bintang Dengan Nested Looping
 
-var rows2 = 4;
-var count;
-var col;
+var rows2 = 3;
 var bintang;
 
-for (count = 0; count < rows2; count++){
+for (var i = 0; i < rows2; i++){
 	bintang = ""
-	for (col = 0; col < rows2; col++){
+	for (var j = 0; j < rows2; j++){
 		bintang +="*";
 	}
 	console.log(bintang);
@@ -26,16 +24,13 @@ for (count = 0; count < rows2; count++){
 
 //3. Menyusun Barisan Tangga Bintang Dengan Nested Looping
 
-var rows3 = 3;
-var count = 0;
-var col = 0;
-var bintang = "*";
+ var rows3 = 4;
+ var bintang = "";
 
-while(count < rows3){
-	while(col < rows3){
-	console.log(bintang);
-	bintang+='*'
-	col++
-	}
-	count++
-}
+    for (var i = 1; i <= rows3; i++) {
+        for (var j = 1; j <= i; j++) {
+            bintang+="*";
+        }
+        console.log(bintang);
+        bintang="";
+    }

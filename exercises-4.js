@@ -1,7 +1,9 @@
-var hari = 2;
+var hari = 31;
 var bulan = 2;
-var tahun = 1998;
+var tahun = 1000;
 
+if (hari <= 31 && hari>0 && 
+	bulan<=12 && bulan>0 && tahun<=2200 && tahun >=1900 ) {
 switch (bulan){
 	case 1:
 	console.log(`${hari} Januari ${tahun}`);
@@ -39,4 +41,10 @@ switch (bulan){
 	case 12:
 	console.log(`${hari} Desember ${tahun}`);
 	break;
-}
+		}
+}else{
+			console.log('Periksa kembali input!');
+			console.log('isi hari dengan angka antara 1-31');
+			console.log('isi bulan dengan angka antara 1-12');
+			console.log('isi tahun dengan angka antara 1900-2200');
+		}
