@@ -11,13 +11,13 @@ while(count<rows){
 
 //2. Menyusun Barisan Bintang Dengan Nested Looping
 
-var rows2 = 2;
+var rows2 = 4;
 var count;
 var col;
-
+var bintang;
 
 for (count = 0; count < rows2; count++){
-	var bintang = ""
+	bintang = ""
 	for (col = 0; col < rows2; col++){
 		bintang +="*";
 	}

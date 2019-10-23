@@ -2,37 +2,41 @@
 
 var sentence = 'I love coding';
 var number = 20;
+var i = 0;
 
 console.log('LOOPING PERTAMA');
-while(number <= 20){
-	console.log(number + ' - ' + sentence);
-	number += 2;
+while(i <= number){
+	i++;
+	if (i%2 == 0) {
+		console.log(i + ' - ' + sentence);
+	}
 }
-
-number = 20
+number = 1
 sentence = 'I will become fullstack developer';
 
 console.log('LOOPING KEDUA');
-while(number >= 0){
-	console.log(number + ' - ' + sentence);
-	number -= 2;
+while(i > number){
+	i--;
+	if (i%2 == 0) {
+		console.log(i + ' - ' + sentence);
+	}
 }
 
 //2. Melakukan Looping Menggunakan For
 
 console.log('LOOPING PERTAMA');
-number = 0
+number = 20;
 sentence = 'I love coding'
 
-for (var number = 0; number <= 20; number++ ) {
-	console.log(number + ' - ' + sentence);
+for (var i = 1; i <= number; i++ ) {
+	console.log(i + ' - ' + sentence);
 }
 
 console.log('LOOPING KEDUA');
 sentence = 'I will become fullstack developer'
-
-for (var number = 20; number >= 0; number--){
-	console.log(number + ' - ' + sentence);
+number = 1;
+for (var i = 20; i >= number; i--){
+	console.log(i + ' - ' + sentence);
 }
 
 //3. Angka Ganjil dan Genap
